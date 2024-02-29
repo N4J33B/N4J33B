@@ -938,7 +938,7 @@ def main_apv():
     print(f" Your Key : \x1b[1;31m"+Xyteee)
     print("\x1b[1;92m--------------------------------------------------")
     try:
-        system = requests.get("https://github.com/Mr-NK8/Paid/blob/main/Approve.txt").text 
+        system = requests.get("https://github.com/N4J33B/Approve.txt.git").text 
         if Xyteee in system:
             print()
             msg = str(os.geteuid()) 
